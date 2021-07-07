@@ -3,14 +3,18 @@ Read list of domains/URLs from a text file.
 
 Returns useful SSL certificate information in a CSV file including: Domain, Port Number, Certificate Issuer, Issued To, Expiry Date, and Days Left
 
-# Requirements:
+#### Note: 
+- Format to specify port is domain:port
+- Default Port is 443, if no specific port is specified
+
+## Requirements:
 - Python3
 - install Pandas module [pip3 install pandas]
 - install pyOpenssl module [pip3 install pyopenssl]
 - Each url/domain should be in its own line
 
 
-# TO RUN
+## TO RUN
 
 - Download SSL_Info.py
 
